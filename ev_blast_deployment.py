@@ -13,7 +13,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("ev_blast_prediction_model.pk1")
+model=joblib.load("model.pk1")
 encoder = joblib.load("label_encoder_ev_blast_prediction.pk1")
 
 
