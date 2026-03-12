@@ -13,8 +13,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model=joblib.load("model.pk1")
-encoder = joblib.load("label_encoder_ev_blast_prediction.pk1")
+model=joblib.load("model.pkl")
+encoder = joblib.load("label_encoder_ev_blast_prediction.pkl")
 
 
 st.title("EV Blast Battery Health Prediction System")
